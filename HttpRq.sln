@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRq", "HttpRq\HttpRq.csproj", "{77662B27-2B35-4A84-9D01-E5DDCB1C7CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77662B27-2B35-4A84-9D01-E5DDCB1C7CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77662B27-2B35-4A84-9D01-E5DDCB1C7CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77662B27-2B35-4A84-9D01-E5DDCB1C7CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77662B27-2B35-4A84-9D01-E5DDCB1C7CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B71911F-7166-4F97-AC2C-D4E8BE0DB12C}
+	EndGlobalSection
+EndGlobal

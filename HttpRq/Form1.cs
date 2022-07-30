@@ -95,13 +95,13 @@ namespace HttpRq
 
             http.Cookies = new CookieDictionary();
 
-            string linkLogin = "https://mbasic.facebook.com/login/?email=s&next=https://mbasic.facebook.com/home.php&li=QOzkYiMcjZ_IZGq0Bw-haYzr&e=1348028&shbl=1&refsrc=deprecated&_rdr";
+            string linkLogin = "https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8";
 
             http.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36";
 
-            string data = "lsd=AVqw9qDIJ-I&jazoest=2886&m_ts=1659168891&li=e-jkYuDGdjfMKXD2nqG-fJ3u&try_number=0&unrecognized_tries=0&email=bacult1990%40gmail.com&pass=bac22198&login=%C4%90%C4%83ng+nh%E1%BA%ADp&bi_xrwh=0";
-
-            string html = http.Post(linkLogin, data, "text/html; charset=utf-8").ToString(); ;
+            string data = "lsd=AVoOA_iZWC0&jazoest=2898&m_ts=1659190407&li=hzzlYuieAlkkHooJYNhvq0Gs&try_number=0&unrecognized_tries=0&email="+txtUser+"&pass="+txtPasswd+"&login=%C4%90%C4%83ng+nh%E1%BA%ADp&bi_xrwh=0";
+                
+            string html = http.Post(linkLogin, data, "application/x-www-form-urlencoded").ToString(); ;
 
         }
     }
